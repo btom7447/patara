@@ -23,27 +23,29 @@ import ScrollToTop from './Components/ScrollToTop';
 
 const App = () => {
   return (
-    <CartProvider>
-      <Router>
-        <ScrollToTop />
-        <LoaderWrapper />
-        <Navbar />
-        <Routes>  
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} /> 
-          <Route path="/rooms" element={<Rooms />} /> 
-          <Route path="/services" element={<Services />} />
-          <Route path="/services/restaurant-bar" element={<RestaurantBar />} /> 
-          <Route path="/services/spa-wellness" element={<SpaWellness />} /> 
-          <Route path="/services/fitness-recreation" element={<FitnessRecreation />} /> 
-          <Route path="/contact" element={<Contact />} /> 
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/booking" element={<Booking />} />
-        </Routes>
-        <Footer roomsData={roomsData} />
-      </Router>
-      <ToastContainer position='top-right' autoClose={3000} />
-    </CartProvider>
+    <div className='App'>
+      <CartProvider>
+        <Router>
+          <ScrollToTop />
+          <LoaderWrapper />
+          <Navbar />
+          <Routes>  
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} /> 
+            <Route path="/rooms" element={<Rooms />} /> 
+            <Route path="/services" element={<Services />} />
+            <Route path="/services/restaurant-bar" element={<RestaurantBar />} /> 
+            <Route path="/services/spa-wellness" element={<SpaWellness />} /> 
+            <Route path="/services/fitness-recreation" element={<FitnessRecreation />} /> 
+            <Route path="/contact" element={<Contact />} /> 
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/booking" element={<Booking />} />
+          </Routes>
+          <Footer roomsData={roomsData} />
+        </Router>
+        <ToastContainer position='top-right' autoClose={3000} />
+      </CartProvider>
+    </div>
   );
 }
 
