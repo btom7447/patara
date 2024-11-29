@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/patara/static/css/main.3baf3f29.css",
-    "main.js": "/patara/static/js/main.c2a8e311.js",
+    "main.js": "/patara/static/js/main.8b914333.js",
     "static/js/453.fa051f60.chunk.js": "/patara/static/js/453.fa051f60.chunk.js",
     "index.html": "/patara/index.html",
     "main.3baf3f29.css.map": "/patara/static/css/main.3baf3f29.css.map",
-    "main.c2a8e311.js.map": "/patara/static/js/main.c2a8e311.js.map",
+    "main.8b914333.js.map": "/patara/static/js/main.8b914333.js.map",
     "453.fa051f60.chunk.js.map": "/patara/static/js/453.fa051f60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3baf3f29.css",
-    "static/js/main.c2a8e311.js"
+    "static/js/main.8b914333.js"
   ]
 }
