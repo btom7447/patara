@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div className='App'>
       <CartProvider>
-        <Router>
+        <Router basename='patara'>
           <ScrollToTop />
           <LoaderWrapper />
           <Navbar />
