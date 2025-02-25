@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Patara Hotels
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Patara** is a modern and elegant hotel website designed for **Patara Hotels**. It provides a seamless online booking experience, showcases hotel amenities and hospitality, displays rooms and suites with their perks, and integrates an online payment gateway for hassle-free transactions.
 
-## Available Scripts
+## 🌟 Features
+- **Online Booking**: Guests can reserve rooms directly from the website.
+- **View Amenities & Hospitality**: Discover the luxurious services and facilities offered.
+- **Rooms & Suites**: Browse different room types along with their features and perks.
+- **Secure Online Payments**: Integrated payment gateway for quick and safe transactions.
+- **Interactive Maps**: Locate the hotel with ease using Leaflet.js integration.
+- **Date Picker for Reservations**: Smooth date selection for check-in and check-out.
+- **Toast Notifications**: User-friendly alerts for actions like booking confirmations.
+- **Modal Pop-ups**: Elegant pop-ups for booking details and other interactions.
 
-In the project directory, you can run:
+## 🏗️ Tech Stack & Dependencies
+Patara is built with **React.js** and uses several libraries to enhance functionality:
 
-### `npm start`
+### Main Dependencies
+- **React & React-DOM** (`^18.3.1`)
+- **React Router DOM** (`^6.28.0`) – Navigation management
+- **@mui/material** (`^5.16.8`) – UI Components
+- **@splidejs/react-splide** (`^0.7.12`) – Carousel & sliders
+- **React Modal** (`^3.16.1`) – For pop-ups and modals
+- **React Toastify** (`^10.0.6`) – For notifications
+- **Date-fns** (`^2.30.0`) – Date manipulation
+- **React-Flatpickr & React-Datepicker** – Calendar pickers
+- **Leaflet & React-Leaflet** – Interactive hotel location map
+- **Font Awesome Icons** – Icons for a visually appealing interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Installation & Setup
+To run this project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/btom7447/patara.git
+cd patara
+```
 
-### `npm test`
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3️⃣ Start the Development Server
+```sh
+npm start
+```
+The site will run at `http://localhost:3000/`
 
-### `npm run build`
+## 🌍 Deployment
+Patara is deployed using **GitHub Pages**:
+- Live Site: [Patara Hotels](https://btom7447.github.io/patara)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To deploy:
+```sh
+npm run deploy
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📜 Scripts
+- `npm start` – Run development server
+- `npm run build` – Build for production
+- `npm run test` – Run tests
+- `npm run deploy` – Deploy to GitHub Pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📌 License
+This project is open-source and available under the [MIT License](LICENSE).
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+✉️ Need support? Contact the **Patara Hotels** team!
